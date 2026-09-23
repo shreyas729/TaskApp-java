@@ -1,3 +1,5 @@
+package com.shreyas.taskcli;
+
 import java.time.LocalDate;
 
 public class Task {
@@ -18,6 +20,7 @@ public class Task {
     public Task(String title, String description, TaskStatus status, LocalDate dueDate) {
         this( 0 , title, description , status, dueDate);
     }
+    public Task(){}
 
     public int getId() {
         return id;
